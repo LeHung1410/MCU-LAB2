@@ -1,0 +1,24 @@
+23:06:40 **** Incremental Build of configuration Debug for project Exercise 3 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:106:13: warning: unused variable 'MAX_LED' [-Wunused-variable]
+  106 |   const int MAX_LED = 4;
+      |             ^~~~~~~
+arm-none-eabi-gcc -o "Exercise 3.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\M S I\Desktop\Exercise 3\Exercise 3\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Exercise 3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Exercise 3.elf
+ 
+arm-none-eabi-size   Exercise\ 3.elf 
+arm-none-eabi-objdump -h -S  Exercise\ 3.elf  > "Exercise 3.list"
+arm-none-eabi-objcopy  -O ihex  Exercise\ 3.elf  "Exercise 3.hex"
+   text	   data	    bss	    dec	    hex	filename
+   7976	     20	   1732	   9728	   2600	Exercise 3.elf
+arm-none-eabi-objcopy  -O binary  Exercise\ 3.elf  "Exercise 3.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Exercise 3.hex
+Finished building: Exercise 3.bin
+ 
+ 
+Finished building: Exercise 3.list
+ 
