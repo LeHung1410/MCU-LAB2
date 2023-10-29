@@ -1,0 +1,40 @@
+!SESSION 2023-10-01 23:03:11.342 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-01 23:03:34.258
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-01 23:03:34.320
+!MESSAGE Log4j initialized with config file C:\Users\M S I\Desktop\Exercise 2\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-01 23:03:38.479
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-01 23:09:52.366
+!MESSAGE Indexed 'Exercise 2' (19 sources, 78 headers) in 2.73 sec: 3,647 declarations; 13,140 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-01 23:17:25.896
+!MESSAGE Indexed 'Exercise1' (20 sources, 98 headers) in 2.02 sec: 7,476 declarations; 35,839 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.43%)
+!SESSION 2023-10-02 07:35:28.837 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\M S I\Desktop\Exercise 2\Exercise 2\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\M S I\Desktop\Exercise 2\Exercise 2\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-02 07:35:37.371
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-02 07:35:37.449
+!MESSAGE Log4j initialized with config file C:\Users\M S I\Desktop\Exercise 2\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-02 07:35:43.694
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-02 07:35:45.656
+!MESSAGE Indexed 'Exercise 2' (20 sources, 98 headers) in 1.82 sec: 7,510 declarations; 36,135 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.43%)
